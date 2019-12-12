@@ -74,6 +74,11 @@ public class Solution {
 		System.out.println("----------B-Q3-----------------");
 		Dolphine objDolphine = new Dolphine();
 		objDolphine.isSwimm();
+		
+		System.out.println("----------D-Q1-----------------");
+		Butterfly objButterfly = new Butterfly();
+		objButterfly.isFly();
+		objButterfly.isSing();
 	}
 
 }

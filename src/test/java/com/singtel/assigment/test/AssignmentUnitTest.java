@@ -6,6 +6,7 @@ package com.singtel.assigment.test;
 import org.junit.Test;
 
 import com.singtel.assignment.Bird;
+import com.singtel.assignment.Butterfly;
 import com.singtel.assignment.Cat;
 import com.singtel.assignment.Chicken;
 import com.singtel.assignment.Clownfish;
@@ -112,9 +113,10 @@ public class AssignmentUnitTest {
 	}
 	
 	@Test
-	public void testBQ3_a() {
-		Dolphine objDolphine = new Dolphine();
-		objDolphine.isSwimm();
+	public void testDQ1() {
+		Butterfly objButterfly = new Butterfly();
+		objButterfly.isFly();
+		objButterfly.isSing();
 	}
 
 }
