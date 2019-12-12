@@ -14,99 +14,91 @@ import com.singtel.assignment.Fish;
 import com.singtel.assignment.Parrot;
 import com.singtel.assignment.Rooster;
 import com.singtel.assignment.RoosterOtherWay;
+import com.singtel.assignment.Shark;
 
 /**
  * @author dumidu
  *
  */
 public class AssignmentUnitTest {
-	
+
 	@Test
-	public void testQ1_a()
-	{
+	public void testQ1_a() {
 		Bird objBird = new Bird();
 		objBird.isWalk();
 		objBird.isFly();
 		objBird.isSing();
 	}
-	
+
 	@Test
-	public void testQ2_a()
-	{
+	public void testQ2_a() {
 		Duck objDuck = new Duck();
 		objDuck.isWalk();
 		objDuck.isFly();
 		objDuck.isSing();
 		objDuck.isSwimm();
 	}
-	
+
 	@Test
-	public void testQ2_c()
-	{
+	public void testQ2_c() {
 		Chicken objChicken = new Chicken();
 		objChicken.isWalk();
 		objChicken.isFly();
 		objChicken.isSing();
 		objChicken.isSwimm();
 	}
-	
+
 	@Test
-	public void testQ3_a()
-	{
+	public void testQ3_a() {
 		Rooster objRooster = new Rooster();
 		objRooster.isWalk();
 		objRooster.isFly();
 		objRooster.isSing();
 		objRooster.isSwimm();
 	}
-	
+
 	@Test
-	public void testQ3_c()
-	{
+	public void testQ3_c() {
 		RoosterOtherWay objRooster = new RoosterOtherWay();
 		objRooster.isWalk();
 		objRooster.isFly();
 		objRooster.isSing();
 		objRooster.isSwimm();
 	}
-	
+
 	@Test
-	public void testQ4_a()
-	{
+	public void testQ4_a() {
 		Parrot objParrot = new Parrot();
 		objParrot.setLivedWith(new Dog());
 		objParrot.isSing();
 		objParrot.isFly();
 		objParrot.isWalk();
 	}
-	
+
 	@Test
-	public void testQ4_b()
-	{
+	public void testQ4_b() {
 		Parrot objParrot = new Parrot();
 		objParrot.setLivedWith(new Cat());
 		objParrot.isSing();
 		objParrot.isFly();
 		objParrot.isWalk();
 	}
-	
+
 	@Test
-	public void testQ4_c()
-	{
+	public void testQ4_c() {
 		Parrot objParrot = new Parrot();
 		objParrot.setLivedWith(new Rooster());
 		objParrot.isSing();
 		objParrot.isFly();
 		objParrot.isWalk();
 	}
-	
+
 	@Test
-	public void testBQ1()
-	{
-		Fish objFish = new Fish();
-		objFish.isSing();
-		objFish.isWalk();
-		objFish.isSwimm();
+	public void testBQ1() {
+		Shark objShark = new Shark();
+		objShark.color();
+		objShark.eat();
+		objShark.makeJokes();
 	}
 
 }

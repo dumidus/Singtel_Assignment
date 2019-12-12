@@ -60,11 +60,11 @@ public class Solution {
 		objParrotRoos.isFly();
 		objParrotRoos.isWalk();
 		
-		System.out.println("----------B-Q1-----------------");
-		Fish objFish = new Fish();
-		objFish.isSing();
-		objFish.isWalk();
-		objFish.isSwimm();
+		System.out.println("----------B-Q2-----------------");
+		Shark objShark = new Shark();
+		objShark.color();
+		objShark.eat();
+		objShark.makeJokes();
 	}
 
 }
