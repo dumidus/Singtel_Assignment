@@ -59,6 +59,12 @@ public class Solution {
 		objParrotRoos.isSing();
 		objParrotRoos.isFly();
 		objParrotRoos.isWalk();
+		
+		System.out.println("----------B-Q1-----------------");
+		Fish objFish = new Fish();
+		objFish.isSing();
+		objFish.isWalk();
+		objFish.isSwimm();
 	}
 
 }

@@ -10,6 +10,7 @@ import com.singtel.assignment.Cat;
 import com.singtel.assignment.Chicken;
 import com.singtel.assignment.Dog;
 import com.singtel.assignment.Duck;
+import com.singtel.assignment.Fish;
 import com.singtel.assignment.Parrot;
 import com.singtel.assignment.Rooster;
 import com.singtel.assignment.RoosterOtherWay;
@@ -20,7 +21,7 @@ import com.singtel.assignment.RoosterOtherWay;
  */
 public class AssignmentUnitTest {
 	
-	//@Test
+	@Test
 	public void testQ1_a()
 	{
 		Bird objBird = new Bird();
@@ -29,7 +30,7 @@ public class AssignmentUnitTest {
 		objBird.isSing();
 	}
 	
-	//@Test
+	@Test
 	public void testQ2_a()
 	{
 		Duck objDuck = new Duck();
@@ -39,7 +40,7 @@ public class AssignmentUnitTest {
 		objDuck.isSwimm();
 	}
 	
-	//@Test
+	@Test
 	public void testQ2_c()
 	{
 		Chicken objChicken = new Chicken();
@@ -49,7 +50,7 @@ public class AssignmentUnitTest {
 		objChicken.isSwimm();
 	}
 	
-	//@Test
+	@Test
 	public void testQ3_a()
 	{
 		Rooster objRooster = new Rooster();
@@ -59,7 +60,7 @@ public class AssignmentUnitTest {
 		objRooster.isSwimm();
 	}
 	
-	//@Test
+	@Test
 	public void testQ3_c()
 	{
 		RoosterOtherWay objRooster = new RoosterOtherWay();
@@ -97,6 +98,15 @@ public class AssignmentUnitTest {
 		objParrot.isSing();
 		objParrot.isFly();
 		objParrot.isWalk();
+	}
+	
+	@Test
+	public void testBQ1()
+	{
+		Fish objFish = new Fish();
+		objFish.isSing();
+		objFish.isWalk();
+		objFish.isSwimm();
 	}
 
 }
