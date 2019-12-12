@@ -3,6 +3,8 @@
  */
 package com.singtel.assignment;
 
+import java.util.HashMap;
+
 /**
  * @author dumidu
  *
@@ -116,6 +118,17 @@ public class Solution {
 		System.out.println("countFly " + countFly);
 		System.out.println("countSing " + countSing);
 		System.out.println("countSwimm " + countSwimm);
+		
+		
+		System.out.println("----------Bonus-Q1-----------------");
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Sinhala", "Kukkukkuuu");
+		
+		Rooster objRoosters = new Rooster();
+		objRoosters.setSingLang(map.get("Sinhala"));
+		objRoosters.isSing();
 	}
+	
 
 }

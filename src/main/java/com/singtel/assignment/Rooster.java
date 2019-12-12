@@ -8,6 +8,8 @@ package com.singtel.assignment;
  *
  */
 public class Rooster extends Chicken{
+	
+	private String singLang = "Cock-a-doodle-doo";
 
 	/* (non-Javadoc)
 	 * @see com.singtel.assignment.Chicken#isWalk()
@@ -30,7 +32,7 @@ public class Rooster extends Chicken{
 	 */
 	@Override
 	public boolean isSing() {
-		System.out.println("Cock-a-doodle-doo");
+		System.out.println(singLang);
 		return true;
 	}
 
@@ -40,6 +42,10 @@ public class Rooster extends Chicken{
 	@Override
 	public boolean isSwimm() {
 		return super.isSwimm();
+	}
+
+	public void setSingLang(String singLang) {
+		this.singLang = singLang;
 	}
 
 }
