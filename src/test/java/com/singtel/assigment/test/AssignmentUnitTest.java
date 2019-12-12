@@ -8,7 +8,9 @@ import org.junit.Test;
 import com.singtel.assignment.Bird;
 import com.singtel.assignment.Cat;
 import com.singtel.assignment.Chicken;
+import com.singtel.assignment.Clownfish;
 import com.singtel.assignment.Dog;
+import com.singtel.assignment.Dolphine;
 import com.singtel.assignment.Duck;
 import com.singtel.assignment.Fish;
 import com.singtel.assignment.Parrot;
@@ -94,11 +96,25 @@ public class AssignmentUnitTest {
 	}
 
 	@Test
-	public void testBQ1() {
+	public void testBQ2_a() {
 		Shark objShark = new Shark();
 		objShark.color();
 		objShark.eat();
-		objShark.makeJokes();
+		objShark.size();
+	}
+	
+	@Test
+	public void testBQ2_b() {
+		Clownfish objClownfish = new Clownfish();
+		objClownfish.color();
+		objClownfish.size();
+		objClownfish.makeJokes();
+	}
+	
+	@Test
+	public void testBQ3_a() {
+		Dolphine objDolphine = new Dolphine();
+		objDolphine.isSwimm();
 	}
 
 }

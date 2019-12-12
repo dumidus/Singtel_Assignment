@@ -19,3 +19,6 @@ Please refer com.singtel.assigment.test.AssignmentUnitTest for unit tests
 
 4. Define animal type variable to identify who lives with parrot and based on that define what parrot says
 
+
+Section B
+3b. By keeping common functionalities in supper class we can avoid duplication

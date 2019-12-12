@@ -65,6 +65,15 @@ public class Solution {
 		objShark.color();
 		objShark.eat();
 		objShark.makeJokes();
+		
+		Clownfish objClownfish = new Clownfish();
+		objClownfish.color();
+		objClownfish.size();
+		objClownfish.makeJokes();
+		
+		System.out.println("----------B-Q3-----------------");
+		Dolphine objDolphine = new Dolphine();
+		objDolphine.isSwimm();
 	}
 
 }
