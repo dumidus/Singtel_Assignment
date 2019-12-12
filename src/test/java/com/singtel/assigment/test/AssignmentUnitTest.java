@@ -8,6 +8,8 @@ import org.junit.Test;
 import com.singtel.assignment.Bird;
 import com.singtel.assignment.Chicken;
 import com.singtel.assignment.Duck;
+import com.singtel.assignment.Rooster;
+import com.singtel.assignment.RoosterOtherWay;
 
 /**
  * @author dumidu
@@ -24,7 +26,7 @@ public class AssignmentUnitTest {
 		objBird.isSing();
 	}
 	
-	@Test
+	//@Test
 	public void testQ2_a()
 	{
 		Duck objDuck = new Duck();
@@ -34,7 +36,7 @@ public class AssignmentUnitTest {
 		objDuck.isSwimm();
 	}
 	
-	@Test
+	//@Test
 	public void testQ2_c()
 	{
 		Chicken objChicken = new Chicken();
@@ -42,6 +44,26 @@ public class AssignmentUnitTest {
 		objChicken.isFly();
 		objChicken.isSing();
 		objChicken.isSwimm();
+	}
+	
+	@Test
+	public void testQ3_a()
+	{
+		Rooster objRooster = new Rooster();
+		objRooster.isWalk();
+		objRooster.isFly();
+		objRooster.isSing();
+		objRooster.isSwimm();
+	}
+	
+	@Test
+	public void testQ3_c()
+	{
+		RoosterOtherWay objRooster = new RoosterOtherWay();
+		objRooster.isWalk();
+		objRooster.isFly();
+		objRooster.isSing();
+		objRooster.isSwimm();
 	}
 
 }

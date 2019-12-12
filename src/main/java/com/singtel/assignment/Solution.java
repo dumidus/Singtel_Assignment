@@ -27,6 +27,19 @@ public class Solution {
 		objChicken.isFly();
 		objChicken.isSing();
 		objChicken.isSwimm();
+		
+		System.out.println("-----------Q3-----------------");
+		Rooster objRooster = new Rooster();
+		objRooster.isWalk();
+		objRooster.isFly();
+		objRooster.isSing();
+		objRooster.isSwimm();
+		
+		RoosterOtherWay objRoosterOther = new RoosterOtherWay();
+		objRoosterOther.isWalk();
+		objRoosterOther.isFly();
+		objRoosterOther.isSing();
+		objRoosterOther.isSwimm();
 	}
 
 }

@@ -13,3 +13,6 @@ Please refer com.singtel.assigment.test.AssignmentUnitTest for unit tests
 1b. Set Animal class as Interface 
 
 2. Change animal interface method types to boolean to cater negative scenario(can't walk, can't swmm etc...)
+
+3b. Rooster inherited from chicken class
+3c. Used delegation as alternative to inheritance. So that chicken object use as an instance variable in rooster class
