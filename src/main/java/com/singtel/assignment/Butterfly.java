@@ -7,16 +7,28 @@ package com.singtel.assignment;
  * @author dumidu
  *
  */
-public class Butterfly implements Animal{
+public class Butterfly implements Animal {
+
+	private boolean isCaterpillar = false;
 
 	public boolean isWalk() {
-		// TODO Auto-generated method stub
-		return false;
+		if (isCaterpillar) {
+			System.out.println("I can walk");
+			return false;
+		} else {
+			System.out.println("I can't walk");
+			return true;
+		}
 	}
 
 	public boolean isFly() {
-		System.out.println("I am flying");
-		return true;
+		if (isCaterpillar) {
+			System.out.println("I cannot fly");
+			return false;
+		} else {
+			System.out.println("I am flying");
+			return true;
+		}
 	}
 
 	public boolean isSing() {
@@ -27,6 +39,10 @@ public class Butterfly implements Animal{
 	public boolean isSwimm() {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	public void setCaterpillar(boolean isCaterpillar) {
+		this.isCaterpillar = isCaterpillar;
 	}
 
 }

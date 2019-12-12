@@ -79,6 +79,12 @@ public class Solution {
 		Butterfly objButterfly = new Butterfly();
 		objButterfly.isFly();
 		objButterfly.isSing();
+		
+		System.out.println("----------D-Q2-----------------");
+		Butterfly objCterpiller = new Butterfly();
+		objCterpiller.setCaterpillar(true);
+		objCterpiller.isFly();
+		objCterpiller.isWalk();
 	}
 
 }

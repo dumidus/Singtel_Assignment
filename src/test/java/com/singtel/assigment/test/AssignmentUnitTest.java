@@ -117,6 +117,16 @@ public class AssignmentUnitTest {
 		Butterfly objButterfly = new Butterfly();
 		objButterfly.isFly();
 		objButterfly.isSing();
+		objButterfly.isWalk();
 	}
+	
+	@Test
+	public void testDQ2() {
+		Butterfly objButterfly = new Butterfly();
+		objButterfly.setCaterpillar(true);
+		objButterfly.isFly();
+		objButterfly.isWalk();
+	}
+	
 
 }
