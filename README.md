@@ -22,3 +22,6 @@ Please refer com.singtel.assigment.test.AssignmentUnitTest for unit tests
 
 Section B
 3b. By keeping common functionalities in supper class we can avoid duplication
+
+Section E
+1. Please refer Solution.java class for implementation 
