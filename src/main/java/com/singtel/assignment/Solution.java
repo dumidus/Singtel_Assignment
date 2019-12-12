@@ -40,6 +40,25 @@ public class Solution {
 		objRoosterOther.isFly();
 		objRoosterOther.isSing();
 		objRoosterOther.isSwimm();
+		
+		System.out.println("-----------Q4-----------------");
+		Parrot objParrotDog = new Parrot();
+		objParrotDog.setLivedWith(new Dog());
+		objParrotDog.isSing();
+		objParrotDog.isFly();
+		objParrotDog.isWalk();
+		
+		Parrot objParrotCat = new Parrot();
+		objParrotCat.setLivedWith(new Cat());
+		objParrotCat.isSing();
+		objParrotCat.isFly();
+		objParrotCat.isWalk();
+		
+		Parrot objParrotRoos = new Parrot();
+		objParrotRoos.setLivedWith(new Rooster());
+		objParrotRoos.isSing();
+		objParrotRoos.isFly();
+		objParrotRoos.isWalk();
 	}
 
 }

@@ -16,3 +16,6 @@ Please refer com.singtel.assigment.test.AssignmentUnitTest for unit tests
 
 3b. Rooster inherited from chicken class
 3c. Used delegation as alternative to inheritance. So that chicken object use as an instance variable in rooster class
+
+4. Define animal type variable to identify who lives with parrot and based on that define what parrot says
+

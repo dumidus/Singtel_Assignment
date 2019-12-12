@@ -6,8 +6,11 @@ package com.singtel.assigment.test;
 import org.junit.Test;
 
 import com.singtel.assignment.Bird;
+import com.singtel.assignment.Cat;
 import com.singtel.assignment.Chicken;
+import com.singtel.assignment.Dog;
 import com.singtel.assignment.Duck;
+import com.singtel.assignment.Parrot;
 import com.singtel.assignment.Rooster;
 import com.singtel.assignment.RoosterOtherWay;
 
@@ -46,7 +49,7 @@ public class AssignmentUnitTest {
 		objChicken.isSwimm();
 	}
 	
-	@Test
+	//@Test
 	public void testQ3_a()
 	{
 		Rooster objRooster = new Rooster();
@@ -56,7 +59,7 @@ public class AssignmentUnitTest {
 		objRooster.isSwimm();
 	}
 	
-	@Test
+	//@Test
 	public void testQ3_c()
 	{
 		RoosterOtherWay objRooster = new RoosterOtherWay();
@@ -64,6 +67,36 @@ public class AssignmentUnitTest {
 		objRooster.isFly();
 		objRooster.isSing();
 		objRooster.isSwimm();
+	}
+	
+	@Test
+	public void testQ4_a()
+	{
+		Parrot objParrot = new Parrot();
+		objParrot.setLivedWith(new Dog());
+		objParrot.isSing();
+		objParrot.isFly();
+		objParrot.isWalk();
+	}
+	
+	@Test
+	public void testQ4_b()
+	{
+		Parrot objParrot = new Parrot();
+		objParrot.setLivedWith(new Cat());
+		objParrot.isSing();
+		objParrot.isFly();
+		objParrot.isWalk();
+	}
+	
+	@Test
+	public void testQ4_c()
+	{
+		Parrot objParrot = new Parrot();
+		objParrot.setLivedWith(new Rooster());
+		objParrot.isSing();
+		objParrot.isFly();
+		objParrot.isWalk();
 	}
 
 }
