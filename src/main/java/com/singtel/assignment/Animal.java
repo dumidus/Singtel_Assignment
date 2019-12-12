@@ -8,8 +8,9 @@ package com.singtel.assignment;
  *
  */
 public interface Animal {
-	public void walk();
-	public void fly();
-	public void sing();
+	public boolean isWalk();
+	public boolean isFly();
+	public boolean isSing();
+	public boolean isSwimm();
 
 }

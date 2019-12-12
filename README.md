@@ -11,3 +11,5 @@ Please refer com.singtel.assigment.test.AssignmentUnitTest for unit tests
 
 1a. Unit tests added to com.singtel.assigment.test.AssignmentUnitTest class
 1b. Set Animal class as Interface 
+
+2. Change animal interface method types to boolean to cater negative scenario(can't walk, can't swmm etc...)

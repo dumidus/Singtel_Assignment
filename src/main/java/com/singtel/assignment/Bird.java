@@ -10,29 +10,34 @@ package com.singtel.assignment;
 public class Bird implements Animal {
 
 	/* (non-Javadoc)
-	 * @see com.singtel.assignment.Animal#walk()
+	 * @see com.singtel.assignment.Animal#isWalk()
 	 */
-	public void walk() {
+	public boolean isWalk() {
 		System.out.println("I am walking");
-		
+		return true;
 	}
 
 	/* (non-Javadoc)
-	 * @see com.singtel.assignment.Animal#fly()
+	 * @see com.singtel.assignment.Animal#isFly()
 	 */
-	public void fly() {
+	public boolean isFly() {
 		System.out.println("I am flying");
-		
+		return true;
 	}
 
 	/* (non-Javadoc)
-	 * @see com.singtel.assignment.Animal#sing()
+	 * @see com.singtel.assignment.Animal#isSing()
 	 */
-	public void sing() {
+	public boolean isSing() {
 		System.out.println("I am singing");
-		
+		return true;
 	}
 
-	
-
+	/* (non-Javadoc)
+	 * @see com.singtel.assignment.Animal#isSwimm()
+	 */
+	public boolean isSwimm() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
